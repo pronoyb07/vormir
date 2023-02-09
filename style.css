@@ -17,6 +17,7 @@
     --orange: #FF6B39;
     --dark-blue: #1D3444;
     --light-blue: #00B5BE;
+    --off-blue: #EDF7FF;
     --light-dark-blue: #DCEAF5;
     --light-grey: #5B5B5B;
 }
@@ -69,11 +70,12 @@ li {
     font-size: 16px;
 }
 
-/* 1st section */
+/* Section 1 */
 
-.head {
+.section1 {
     background-image: url(./assets/background.png);
     display: flex;
+    justify-content: space-between;
     z-index: 0;
     width: 100%;
     height: 500px;
@@ -86,6 +88,7 @@ li {
     margin: 65px;
     padding: 2rem;
     width: 460px;
+    /* display: flex; */
 }
 
 .title1 h1 {
@@ -102,6 +105,101 @@ li {
     color: white;
     border: none;
     border-radius: 31px;
-    width: 173px;
-    height: 52px;
+    width: 151px;
+    height: 37px;
+}
+
+.title1 h3 {
+    display: flex;
+}
+
+.title2 img {
+    margin: 100px;
+    height: 400px;
+    width: 600px;
+}
+
+.title3 {
+    /* padding: 2rem; */
+    margin-top: 40px;
+}
+
+.title4 {
+    display: flex;
+    margin-top: 14px;
+
+}
+
+.title5 {
+    margin-top: 6px;
+}
+
+.title6 {
+    margin-left: 22px;
+    margin-top: 8px;
+}
+
+/* Section 2 */
+
+.section2 {
+
+    margin-left: 120px;
+    margin-top: 71px;
+}
+
+.section2 h1 {
+    background: linear-gradient(to right, #013A4C, #00B5BE, #FF9900, #FF6B39);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.section2 p {
+    font-size: smaller;
+    color: var(--light-grey);
+    width: 550px;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+}
+
+.card img {
+    height: 70%;
+    width: 75%;
+}
+
+.card p {
+    width: 90%;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+}
+
+.card .learn {
+    height: 25%;
+    width: 25%;
+
+}
+
+/* Section 3 */
+
+.section3 {
+    margin-top: 5%;
+    background-image: url(./assets/blue_bg.png);
+    display: flex;
+    z-index: 1;
+    background-color: var(--light-blue);
+    height: 400px;
+
+}
+
+.section3 .glowing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 126px;
+}
+
+.section3 .glowing1 {
+    width: 60%;
 }
