@@ -170,11 +170,7 @@ nav li {
     width: 70%;
 }
 
-.card p {
-    width: 90%;
-    margin-top: 10px;
-    /* margin-left: 30px; */
-}
+
 
 .card .learn {
     height: 25%;
@@ -531,13 +527,14 @@ nav li {
 
 .section8 h1 {
     color: var(--dark-blue);
-    margin: 30px 36px 30px 197px;
+    margin: 30px 36px 30px 111px;
+
 }
 
 .section8 p {
     font-size: smaller;
     color: var(--light-grey);
-    width: 550px;
+    /* width: 550px; */
 }
 
 .card8 {
@@ -546,34 +543,79 @@ nav li {
 }
 
 .card8 .card81 img {
+    position: absolute;
     margin: 8px 42px 30px 107px;
 }
 
 
 .card8 .card82 img {
-    margin: 8px 31px 30px -72px;
+    position: absolute;
+    margin: 8px 1px 30px 547px;
 }
 
 .card8 .card83 img {
-    margin: 10px 30px 30px -268px;
+    position: absolute;
+    margin: 10px 30px 30px 990px;
 }
 
-.card8 p {
+/* .card8 p {
     width: 90%;
     margin-top: 10px;
+} */
+
+.card8 .card81 .learn81 {
+    height: 100px;
+    width: 100px;
+    margin: 397px 30px 30px 125px;
+    position: absolute;
 }
 
-.card8 .learn81 {
-    height: 25%;
-    width: 25%;
+.card8 .card82 .learn82 {
+    height: 100px;
+    width: 100px;
+    margin: 397px 30px 30px 569px;
 }
 
-.card8 .learn82 {
-    height: 25%;
-    width: 25%;
+.card8 .card83 .learn83 {
+    height: 100px;
+    width: 100px;
+    margin: 397px 30px 30px 1014px;
 }
 
-.card8 .learn83 {
-    height: 25%;
-    width: 25%;
+.card8 .card81 .white81 h2 {
+    position: absolute;
+    width: 24%;
+    margin: 237px 30px 30px 123px;
+
+}
+
+.card8 .card82 .white82 h2 {
+    position: absolute;
+    width: 26%;
+    margin: 237px 45px 30px 570px;
+}
+
+.card8 .card83 .white83 h2 {
+    position: absolute;
+    width: 24%;
+    margin: 237px 30px 30px 1011px;
+}
+
+.card8 .card81 .white81 p {
+    position: absolute;
+    width: 20%;
+    /* width: 0%; */
+    margin: 323px 30px 30px 123px;
+}
+
+.card8 .card82 .white82 p {
+    position: absolute;
+    width: 20%;
+    margin: 323px 31px 32px 568px;
+}
+
+.card8 .card83 .white83 p {
+    position: absolute;
+    width: 20%;
+    margin: 323px 31px 32px 1011px;
 }
